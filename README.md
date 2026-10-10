@@ -14,6 +14,8 @@ game_design/GAME_DESIGN_DOCUMENT.md
 
 Replace it with your desired game. That's it — do not modify anything else.
 
+Treat `MASTER_PROMPT.md` as the master prompt — it defines setup (cloning and permanent reference handling) and execution flow.
+
 ---
 
 ## If you're an agent
@@ -28,6 +30,7 @@ Read the following before making changes:
 ```text
 Main Repository/
 ├── README.md                          # This file
+├── MASTER_PROMPT.md                   # Master prompt — setup & execution (read-only)
 ├── AGENTS.md                          # Repository navigation (read-only)
 ├── AGENTS_ARCHITECTURE.md             # Global technical architecture (read-only)
 ├── AGENTS_DEPLOYMENT.md               # Deployment & infrastructure (read-only)
