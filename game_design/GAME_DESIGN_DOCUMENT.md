@@ -1,7 +1,5 @@
 # Isle Clash — Game Design Document
 
-> Visual style: See `VISUAL_REFERENCE.md` and `visuals/` in this folder. If reference images are provided there, agents must follow the provided visual style.
-
 ## 1. Game Overview
 
 **Title:** Isle Clash  
@@ -174,8 +172,6 @@ The match progresses in real time. When the timer expires, the game concludes, t
 The end-of-match experience should include a clear winner, final team standings, and a useful summary of each team's development and performance. The teacher should retain access to the educational assessment records regardless of the match result.
 
 ## 10. Visual Direction and Art Style
-
-> **Visual reference:** If `game_design/visuals/` contains images, follow `VISUAL_REFERENCE.md` and match the provided style authoritatively. Otherwise, use the direction below as the default.
 
 ### Art direction
 

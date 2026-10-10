@@ -13,11 +13,11 @@
 1. Read `README.md` and follow the instructions defined there.
 2. Read `AGENTS.md` for repository navigation and rules.
 3. Read `game_design/GAME_DESIGN_DOCUMENT.md` for the current game design.
-4. If `game_design/visuals/` contains images, read `game_design/VISUAL_REFERENCE.md` and follow the provided visual style.
+4. If `visual_reference/` contains images, follow `visual_reference/VISUAL_REFERENCE.md` — match the visual style of the images inside `visual_reference/`.
 5. Execute the requested work and document all changes inside the repository as instructed.
 
 ## Scope
 
 - Only `game_design/GAME_DESIGN_DOCUMENT.md` is editable for game-specific design.
-- `game_design/VISUAL_REFERENCE.md` and `game_design/visuals/` define the visual style when provided — must be followed if present.
+- `visual_reference/VISUAL_REFERENCE.md` is globally applicable — when images are present in `visual_reference/`, their visual style must be followed.
 - All shared docs (`AGENTS.md`, `AGENTS_ARCHITECTURE.md`, `AGENTS_DEPLOYMENT.md`, `AGENTS_SKILLS.md`, `skills/`) are read-only and reusable across games.
