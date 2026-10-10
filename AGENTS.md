@@ -11,7 +11,9 @@ Main Repository/
 ├── AGENTS_DEPLOY.md
 ├── AGENTS_SKILLS.md
 ├── game_design/
-│   └── GAME_DESIGN_DOCUMENT.md
+│   ├── GAME_DESIGN_DOCUMENT.md
+│   ├── VISUAL_REFERENCE.md
+│   └── visuals/                # Reference images (if provided)
 ├── skills/
 │   ├── game-art-skills/
 │   ├── gamedev-skills/
@@ -32,6 +34,8 @@ Main Repository/
 | `AGENTS_DEPLOY.md` | Deployment environments, hosting, infrastructure, and operational concerns. |
 | `AGENTS_SKILLS.md` | Discovery, selection, and use of installed agent skills. |
 | `game_design/GAME_DESIGN_DOCUMENT.md` | Game-specific concept, mechanics, visual direction, and requirements. |
+| `game_design/VISUAL_REFERENCE.md` | Visual style reference — general style and rules for `game_design/visuals/` images (if provided). |
+| `game_design/visuals/` | Reference images defining the target visual style (if applicable — must be followed). |
 | `skills/game-art-skills/` | Game art, asset creation, and asset pipeline resources. |
 | `skills/gamedev-skills/` | General game design and development resources. |
 | `skills/pixijs-skills/` | PixiJS-specific technical references and development resources. |
@@ -44,6 +48,7 @@ Main Repository/
 - For deployment and infrastructure context, consult `AGENTS_DEPLOY.md`.
 - For skill discovery and usage, consult `AGENTS_SKILLS.md`.
 - For the current game's concept, mechanics, rules, and visual direction, consult `game_design/GAME_DESIGN_DOCUMENT.md`.
+- For visual style and reference images (if applicable), consult `game_design/VISUAL_REFERENCE.md` and `game_design/visuals/` — if images are provided, agents must follow the provided visual style.
 - For specialized technical references, use `AGENTS_SKILLS.md` to locate relevant resources under `skills/`.
 - For previous development sessions, inspect the relevant files under `log/`.
 - For consolidated project history and completed milestones, consult `worklog.md`.
